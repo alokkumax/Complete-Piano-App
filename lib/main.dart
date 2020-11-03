@@ -7,7 +7,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   void playSound(int soundNumber){
-    final player =AudioCache();
+    final player = AudioCache();
     player.play('note$soundNumber.wav');
   }
 
